@@ -55,7 +55,7 @@ export const projectData = [
     title: "First Webpage",
     description:
       "This HTML page is my initial attempt at applying HTML knowledge to learn web development. It presents wallpapers with intuitive navigation, facilitating exploration by category or image scrolling.",
-    link: "https://deepaksadhwani.netlify.app/",
+    link: "https://deepaksadhwani1.netlify.app/",
     tag: "HTML",
   },
   {

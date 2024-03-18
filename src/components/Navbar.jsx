@@ -1,9 +1,8 @@
 const Navbar = () => {
   return (
     <div>
-      <nav>
-       <h1>Deepak Sadhwani</h1>  
-      <h1>Project Gallery</h1>
+      <nav className=" py-4 text-center text-white font-blod text-3xl bg-bgDark ">
+        <h1 className=" ">Project Gallery</h1>
       </nav>
     </div>
   );

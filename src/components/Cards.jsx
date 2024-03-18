@@ -7,10 +7,8 @@ const Cards = () => {
 
   const selectionFilterHandler = (title) => {
     if (title === "All") {
-      // If "All" is selected, show all projects
       setProjectList(projectData);
     } else {
-      // Filter projects based on the selected tag
       const filteredProjects = projectData.filter(
         (project) => project.tag === title
       );
@@ -19,28 +17,30 @@ const Cards = () => {
   };
 
   return (
-    <div>
+    <div className="flex flex-wrap max-w-max space-x-4 gap-y-4 mx-auto justify-center">
       <div>
         {filterData.map((data) => (
           <button
             key={data.id}
             onClick={() => selectionFilterHandler(data.title)}
+            className={`text-lg px-2 py1 rounded-md font-medium text-white bg-black hover:bg-opacity-50 border-2 transition-all duration-200`}
           >
             {data.title}
           </button>
         ))}
       </div>
-
-      {projectList.map((item, index) => (
-        <Card
-          key={index}
-          image={item.image}
-          title={item.title}
-          description={item.description}
-          link={item.link}
-          tag={item.tag}
-        />
-      ))}
+      <div className="flex flex-wrap  justify-center gap-4 mb-4">
+        {projectList.map((item, index) => (
+          <Card
+            key={index}
+            image={item.image}
+            title={item.title}
+            description={item.description}
+            link={item.link}
+            tag={item.tag}
+          />
+        ))}
+      </div>
     </div>
   );
 };

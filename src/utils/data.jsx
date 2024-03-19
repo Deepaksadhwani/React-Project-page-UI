@@ -98,4 +98,15 @@ export const projectData = [
     tag: "REACT",
 
   },
+   {
+    image:
+      "https://i.postimg.cc/YCTVV2xj/Screenshot-from-2024-03-19-21-01-13.png",
+    title: "Product Management",
+    description:
+      "This React project helps manage products easily. Users fill out a simple form to add product details. The submitted information appears as neat cards below. I have used Tailwind CSS for clean and responsive styling.",
+    link: "https://deepak-react3.netlify.app/",
+    tag: "REACT",
+
+  },
+  
 ];

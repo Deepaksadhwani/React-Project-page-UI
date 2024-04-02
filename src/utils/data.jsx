@@ -114,6 +114,7 @@ export const projectData = [
     title: "Student Manager",
     description:
       "This React project is designed as a learning tool for the Context API. It's a student information management system where users can add, edit, and delete student details like names, phone numbers, and addresses.",
+     link: "https://react-student-manager.netlify.app/",
     tag: "REACT",
 
   },

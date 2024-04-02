@@ -108,5 +108,14 @@ export const projectData = [
     tag: "REACT",
 
   },
+   {
+    image:
+      "https://i.postimg.cc/yxq77CpL/Screenshot-from-2024-04-02-11-10-08.png",
+    title: "Student Manager",
+    description:
+      "This React project is designed as a learning tool for the Context API. It's a student information management system where users can add, edit, and delete student details like names, phone numbers, and addresses.",
+    tag: "REACT",
+
+  },
   
 ];

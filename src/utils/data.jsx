@@ -118,5 +118,14 @@ export const projectData = [
     tag: "REACT",
 
   },
-  
+   {
+    image:
+      "https://i.postimg.cc/RZnKDc9n/Screenshot-from-2024-04-03-06-35-40.png",
+    title: "Blogs Content",
+    description:
+      "This project focuses on learning React fundamentals, especially the use of React's Context API. It features a simple pagination component styled with Tailwind CSS for navigating blog posts. The emphasis is on practical experience with context management and styling techniques using Tailwind CSS.",
+     link: "https://deepak-blogs.netlify.app/",
+    tag: "REACT",
+
+  },
 ];
